@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="SlimRoms/packages_apps_SlimCenter" />
+  <remove-project name="SlimRoms/packages_apps_SlimFileManager" />
+  <remove-project name="SlimRoms/packages_apps_DashClock" />
+  <remove-project name="CyanogenMod/Widgets" />
+  <remove-project name="SlimRoms/Superuser" />
+  <remove-project name="platform/packages/apps/Music" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SlimKangs/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="github" revision="sm-kk-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SlimKangs/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8.4" remote="github" revision="sm_4.8.4" />
+
+  <project path="device/motorola/moto_msm8960dt" name="SlimKangs/android_device_motorola_moto_msm8960dt" remote="github" revision="DJL" />
+  <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" remote="github" revision="cm-11.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
+  <remove-project name="SlimRoms/android_external_sepolicy" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
+  <project path="kernel/motorola/msm8960dt-common" name="SlimKangs/android_kernel_motorola_msm8960dt-common" remote="github" revision="DJL" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
+
+  <remove-project name="SlimRoms/frameworks_base" />
+  <project path="frameworks/base" name="SlimKangs/android_frameworks_base" remote="github" revision="DJL" />
+  <remove-project name="SlimRoms/packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="SlimKangs/android_packages_apps_Settings" remote="github" revision="DJL" />
+  <remove-project name="SlimRoms/android_system_core" />
+  <project path="system/core" name="SlimKangs/android_system_core" remote="github" revision="DJL" />
+  <remove-project name="SlimRoms/android_dalvik" />
+  <project path="dalvik" name="SlimKangs/android_dalvik" remote="github" revision="DJL" />
+  <remove-project name="SlimRoms/android_bionic" />
+  <project path="bionic" name="SlimKangs/android_bionic" remote="github" revision="DJL" />
+  <remove-project name="SlimRoms/vendor_slim" />
+  <project path="vendor/slim" name="SlimKangs/vendor_slim" remote="github" revision="DJL" />
+</manifest>
