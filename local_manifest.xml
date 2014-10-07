@@ -1,5 +1,22 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Hammerhead -->
+  <project name="SlimKangs/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="master" />
+  <project name="SlimKangs/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="master" />
+
+  <!-- Flo -->
+  <project name="SlimKangs/device_asus_flo" path="device/asus/flo" remote="github" revision="master" />
+  <project name="SlimKangs/kernel_asus_flo" path="kernel/asus/flo" remote="github" revision="master" />
+
+  <!-- Galaxy S 4G -->
+  <project name="SlimKangs/android_device_samsung_galaxys4gmtd" path="device/samsung/galaxys4gmtd" remote="github" revision="master" />
+  <project name="SlimKangs/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="master" />
+  <project name="SlimKangs/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="master" />
+  <project name="SlimKangs/android_hardware_samsung" path="hardware/samsung" remote="github" revision="master" />
+  <project name="SlimKangs/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" />
+
   <!-- Build -->
   <remove-project name="SlimRoms/android_build" />
   <project path="build" name="SlimKangs/android_build" remote="github" revision="master" />
@@ -20,8 +37,8 @@
   <remove-project name="SlimRoms/vendor_slim" />
   <project path="vendor/slim" name="SlimKangs/vendor_slim" remote="github" revision="master" />
 
-  <!-- Hammerhead -->
-  <project name="SlimKangs/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="master" />
-  <project name="SlimKangs/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="master" />
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
+  <!-- Koush Superuser -->
+  <remove-project name="CyanogenMod/Widgets" />
+  <remove-project name="SlimRoms/Superuser" />
+
 </manifest>
