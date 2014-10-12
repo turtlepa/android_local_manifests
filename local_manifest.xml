@@ -1,21 +1,11 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Hammerhead -->
-  <project name="SlimKangs/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="master" />
-  <project name="SlimKangs/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="master" />
-
-  <!-- Flo -->
-  <project name="SlimKangs/device_asus_flo" path="device/asus/flo" remote="github" revision="master" />
-  <project name="SlimKangs/kernel_asus_flo" path="kernel/asus/flo" remote="github" revision="master" />
-
-  <!-- Galaxy S 4G -->
-  <project name="SlimKangs/android_device_samsung_galaxys4gmtd" path="device/samsung/galaxys4gmtd" remote="github" revision="master" />
-  <project name="SlimKangs/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="master" />
-  <project name="SlimKangs/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="master" />
-  <project name="SlimKangs/android_hardware_samsung" path="hardware/samsung" remote="github" revision="master" />
-  <project name="SlimKangs/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" />
+  <!-- Moto x -->
+  <project name="SlimKangs/android_device_motorola_ghost" path="device/motorola/ghost" remote="github" revision="master" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
+  <project name="SlimKangs/android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="github" revision="master" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
 
   <!-- Build -->
   <remove-project name="SlimRoms/android_build" />
@@ -27,11 +17,11 @@
   <remove-project name="SlimRoms/packages_apps_DashClock" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="SlimRoms/packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="SlimKangs/android_packages_apps_Settings" remote="github" revision="master" />
+  <project path="packages/apps/Settings" name="SlimKangs/android_packages_apps_Settings" remote="github" revision="master-caf" />
 
   <!-- Frameworks -->
   <remove-project name="SlimRoms/frameworks_base" />
-  <project path="frameworks/base" name="SlimKangs/android_frameworks_base" remote="github" revision="master" />
+  <project path="frameworks/base" name="SlimKangs/android_frameworks_base" remote="github" revision="master-caf" />
 
   <!-- Vendor -->
   <remove-project name="SlimRoms/vendor_slim" />
@@ -40,5 +30,9 @@
   <!-- Koush Superuser -->
   <remove-project name="CyanogenMod/Widgets" />
   <remove-project name="SlimRoms/Superuser" />
+
+  <!-- toolchain -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
+  <project name="SlimKangs/toolchains" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="linaro-4.9-arm-eabi" />
 
 </manifest>
