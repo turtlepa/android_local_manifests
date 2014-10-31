@@ -3,15 +3,15 @@
 <manifest>
 
   <!-- Galaxy S 4G -->
-  <project name="turtlepa/android_device_samsung_galaxys4gmtd" path="device/samsung/galaxys4gmtd" remote="github" revision="master" />
-  <project name="turtlepa/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="master" />
-  <project name="turtlepa/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="master" />
-  <project name="turtlepa/android_hardware_samsung" path="hardware/samsung" remote="github" revision="master" />
-  <project name="turtlepa/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" />
+  <project name="SlimKangs/android_device_samsung_galaxys4gmtd" path="device/samsung/galaxys4gmtd" remote="github" revision="master" />
+  <project name="SlimKangs/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="master" />
+  <project name="SlimKangs/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="master" />
+  <project name="SlimKangs/android_hardware_samsung" path="hardware/samsung" remote="github" revision="master" />
+  <project name="SlimKangs/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" />
 
   <!-- Build -->
   <remove-project name="SlimRoms/android_build" />
-  <project path="build" name="turtlepa/android_build" remote="github" revision="master" />
+  <project path="build" name="SlimKangs/android_build" remote="github" revision="master" />
 
   <!-- Packages -->
   <remove-project name="SlimRoms/packages_apps_SlimCenter" />
@@ -19,15 +19,15 @@
   <remove-project name="SlimRoms/packages_apps_DashClock" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="SlimRoms/packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="turtlepa/android_packages_apps_Settings" remote="github" revision="master" />
+  <project path="packages/apps/Settings" name="SlimKangs/android_packages_apps_Settings" remote="github" revision="master" />
 
   <!-- Frameworks -->
   <remove-project name="SlimRoms/frameworks_base" />
-  <project path="frameworks/base" name="turtlepa/android_frameworks_base" remote="github" revision="master" />
+  <project path="frameworks/base" name="SlimKangs/android_frameworks_base" remote="github" revision="master" />
 
   <!-- Vendor -->
   <remove-project name="SlimRoms/vendor_slim" />
-  <project path="vendor/slim" name="turtlepa/vendor_slim" remote="github" revision="master" />
+  <project path="vendor/slim" name="SlimKangs/vendor_slim" remote="github" revision="master" />
 
   <!-- Koush Superuser -->
   <remove-project name="CyanogenMod/Widgets" />
